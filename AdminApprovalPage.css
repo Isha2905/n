@@ -1,0 +1,43 @@
+/* AdminApprovalPage.css */
+.admin-approval {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .data-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .approved-list,
+  .rejected-list {
+    margin-top: 20px;
+  }
+  
+  .approved-list h2,
+  .rejected-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
